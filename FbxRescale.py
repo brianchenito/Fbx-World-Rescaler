@@ -39,10 +39,10 @@ class MainWindow(tk.Frame):
 		self.label0 = tk.Label(self, text= "Fbx World Units Rescaler",font=HEADER,)
 		self.label0.grid(row=0,column=0,padx=10, pady=4,sticky="nsew", columnspan=2)
 
-		self.button0= tk.Button(self, text=self.LocatedFBX,font=BODY, command=lambda:(self.loadFbx()),width=41)
+		self.button0= tk.Button(self, text=self.LocatedFBX,font=BODY, command=lambda:(self.loadFbx()))
 		self.button0.grid(row=1,column=1,padx=10, pady=4,sticky="nsew")
 	
-		self.label1=tk.Label(self, text="Load .fbx", font=BODY,width=30)
+		self.label1=tk.Label(self, text="Load .fbx", font=BODY)
 		self.label1.grid(row=1,column=0,padx=10,pady=4,sticky="nsew")
 
 		self.entry0=tk.Entry(self, font=BODY, justify="center")
