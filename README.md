@@ -1,7 +1,5 @@
 # Fbx-World-Rescaler
-A utility that resizes scenes in FBX files without damaging skeletal animations.  Useful in correcting end of workflow scale issues- You 
-finished your animation, but accidentally converted it from, say, inches to centimeters a few weeks ago. This allows you to keep your 
-baked animations, or to resize a rigged mesh, without the weirdness that happens from directly scaling elements in scene. 
+A utility that resizes scenes in FBX files without damaging skeletal animations.  Useful in correcting end of workflow scale issues- You finished your animation, but accidentally converted it from, say, inches to centimeters a few weeks ago. Attempting to scale rigged meshes individually has a tendency to damage animations, and makes importing an animation onto the rig risky. This utility allows you to keep your baked animations and resize a rigged mesh, without the weirdness that happens from directly scaling elements in scene. 
 
 # Required Modules
 
